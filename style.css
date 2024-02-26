@@ -723,7 +723,6 @@ border-bottom-left-radius: 10px;
     border-bottom: 1px solid white;
 } */
 
-/* image 7 */
 
 
 
@@ -771,7 +770,8 @@ border-bottom-left-radius: 10px;
 
 
 .buttont {
-    width: 250px;
+    display: flex;
+    width: 300px;
     height: 50px;
     background: rgba(255, 72, 90, 1);
     color: white;
@@ -781,7 +781,13 @@ border-bottom-left-radius: 10px;
     position: relative;
     margin-top: 30px;
     font-size: 15px;
+    align-items: center;
+    justify-content: center;
 }
+.buttont img {
+    transform: translateX(25px);
+}
+
 .cards {
     width: 80%;
     height: 115px;
@@ -809,6 +815,7 @@ border-bottom-left-radius: 10px;
 .card > #p1 {
     font-size: 16px;
 }
+
 .card > #p2 {
     font-size: 14px;
     align-items: center;
